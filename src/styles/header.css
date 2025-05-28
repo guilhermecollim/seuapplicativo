@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Arista';
+    src: url(/src/styles/Fontes/Arista-Pro-Light-trial.ttf) format('Opentype');
+    font-weight: normal;
+}
+
+:root {
+    --color-bacgraund1: #F5F5F7;
+    --color-bacgraund2: white;
+    
+    --color-glass1:#f5f5f781;
+
+    --color-text1: #6E6E73;
+    --color-text2: #1D1D1F;
+
+    --color1: #0D0D0D;
+    --color2: #404040;
+    --color3: #8C8C8C;
+    --color4: #E3E3E3;
+    --color5: #F2F2F2;
+
+    --color-BrandPrimary: #426A8C;
+    
+    --font-Arist: 'Arista', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-family: var(--font-Arist);
+    font-size: x-large;
+    color: var(--color-text2);
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--color-text1);
+    font-weight: 100;
+    font-size: medium;
+}
+
+.nav-item.active a {
+    color: var(--color-BrandPrimary);
+    font-weight: 200;
+    border-bottom: 2px solid var(--color-BrandPrimary);
+}
+
+#mobile_btn{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1170px){
+    #nav_list, #navbar .btn-default{
+        display: none;
+    }
+    
+    #mobile_btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    }
+    
+}
