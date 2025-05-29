@@ -46,14 +46,14 @@ header{
 #nav_list{
     display: flex;
     list-style: none;
-    gap: 48px;
+    gap: 60px;
 }
 
 .nav-item a {
     text-decoration: none;
     color: var(--color-text1);
     font-weight: 100;
-    font-size: medium;
+    font-size: smaller;
 }
 
 .nav-item.active a {
