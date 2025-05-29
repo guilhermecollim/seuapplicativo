@@ -65,3 +65,21 @@ section{
 #mobile_btn{
     font-size: smaller;
 }
+
+.section-title {
+    font-size: 2.1875rem;
+    font-weight: 400;
+}
+
+.sub-title {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.icons {
+    height: 200px;
+    width: 200px; 
+    position: relative;
+    margin: 0 auto;
+}
+
