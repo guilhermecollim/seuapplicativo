@@ -42,6 +42,7 @@ section{
 }
 
 .btn-default {
+    text-decoration: none;
     border: none;
     display: flex;
     align-items: center;
@@ -74,6 +75,9 @@ section{
 .sub-title {
     font-size: 1rem;
     font-weight: 300;
+    margin-top: 16px;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
 .icons {
