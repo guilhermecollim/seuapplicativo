@@ -27,8 +27,9 @@
 
 #home {
     display: flex;
-    height: calc(100vh - 82px);
+    height: calc(100vh - 96px);
     position: relative;
+        
 }
 
 #cta {
@@ -36,6 +37,7 @@
     display: flex;
     flex-direction: column;
     gap: 28px;
+    margin-top: 30px;
     
 }
 
@@ -59,12 +61,15 @@
     align-items: start;
     justify-content: end;
     width: 70%;
+    
 }
 
 #banner img{
     height: 100%;
     width: fit-content;
     z-index: 3;
+    margin-top: 96px;
+    
 }
 
 .shape{
@@ -75,6 +80,7 @@
     border-radius: 40% 30% 0% 20%;
     top: 0;
     right: 0;
+    margin-top: 96px;
 }
 
 h3 {

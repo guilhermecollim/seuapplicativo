@@ -25,18 +25,9 @@
     --font-Arist: 'Arista', sans-serif;
 }
 
-footer {
-    text-align: center;
-    padding: 24px;
+#bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
-
-footer > h2 {
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-
-footer > p {
-    font-size: 0.6rem;
-    font-weight: 300;
-    margin-top: 0.3rem;
-} 

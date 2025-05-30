@@ -33,6 +33,14 @@
     color: var(--color-text1);
 }
 
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--color-bacgraund1);
 }
